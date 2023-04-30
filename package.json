@@ -1,4 +1,5 @@
 {
+  "homepage": "https://titidterbang.github.io/react3dPort/",
   "name": "react3d",
   "private": true,
   "version": "0.0.0",
@@ -6,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base /{react3dPort}/",
-    "predeploy": "npm run build",
+    "predeploy": "vite build --base /{react3dPort}/",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview --port 8080"
   },
