@@ -31,10 +31,5 @@
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "vite": "^4.3.2"
-  },
-  "homepage": "https://<TitidTerbang>.github.io/<react3dPort>/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   }
 }
